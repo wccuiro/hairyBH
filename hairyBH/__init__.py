@@ -1,1 +1,1 @@
-from hairy.BlackHole import *
+from hairyBH.BlackHole import *

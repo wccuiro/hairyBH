@@ -1,5 +1,5 @@
-from hairy import black_hole as bh
-from hairy import particula_time_like as ptl
+from hairyBH import black_hole as bh
+from hairyBH import particula_time_like as ptl
 
 x=bh(1,12.52,1.4)
 t=ptl(1,12.52,1.2,0,2.6e-6)

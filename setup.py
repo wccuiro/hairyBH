@@ -21,9 +21,5 @@ setup(
     install_requires=[
         "numpy>=1.21",
         "scipy>=1.7",
-    ] + (
-        # Installing from a git checkout.
-        ["setuptools_scm>=4"] if Path(__file__).with_name(".git").exists()
-        else []
-    ),
+    ],
 )
